@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>2FA Verification</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container account-container">
+      <h2>Enter 2FA Code</h2>
+      <form action="/lab2/verify-secure" method="POST" class="lab-form">
+        <div class="form-group">
+          <input type="text" name="code" placeholder="123456" required />
+        </div>
+        <button type="submit" class="btn-home">Verify Code</button>
+      </form>
+    </div>
+  </body>
+</html>

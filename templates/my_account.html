@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Account - Lab Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container account-container">
+      <h1>Welcome to My Account, {{ user }}!</h1>
+      <p>You have successfully logged in.</p>
+      <hr class="account-divider" />
+      <div class="account-actions">
+        <a href="/" class="btn btn-home">Home Page</a>
+        <a href="/logout" class="btn btn-logout">Logout</a>
+      </div>
+    </div>
+  </body>
+</html>

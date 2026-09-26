@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Authentication Lab Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="portfolio-container">
+      <h1>Web Security Authentication Labs</h1>
+      <p class="subtitle">PortSwigger Vulnerability Training Suite</p>
+      <hr class="divider" />
+      <div class="labs-list">
+        <ul class="labs-ul">
+          <li class="lab-item active-lab">
+            <span>1. Username enumeration via different responses</span>
+            <a href="/lab1" class="btn-lab">Open Lab</a>
+          </li>
+          <li class="lab-item active-lab">
+            <span>2. 2FA simple bypass</span>
+            <a href="/lab2" class="btn-lab">Open Lab</a>
+          </li>
+          <li class="lab-item active-lab">
+            <span>3. Password reset broken logic</span>
+            <a href="/lab3" class="btn-lab">Open Lab</a>
+          </li>
+          <li class="lab-item active-lab">
+            <span>4. Username enumeration via subtly different responses</span>
+            <a href="/lab4" class="btn-lab">Open Lab</a>
+          </li>
+          <li class="lab-item active-lab">
+            <span>5. Username enumeration via response timing</span>
+            <a href="/lab5" class="btn-lab">Open Lab</a>
+          </li>
+          <li class="lab-item active-lab">
+            <span>6. Broken brute-force protection, IP block</span>
+            <a href="/lab6" class="btn-lab">Open Lab</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
