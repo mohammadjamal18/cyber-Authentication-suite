@@ -129,25 +129,6 @@ security-labs-portfolio/
 
 ---
 
-## 🚀 Installation & Setup
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/your-username/security-labs-portfolio.git
-   cd security-labs-portfolio
-   ```
-
-2. **Install dependencies:**
-
-   ```bash
-   pip install flask itsdangerous
-   ```
-
-3. **Run the application:**
-   ```bash
-   python app.py
-   ```
 
 ---
 
